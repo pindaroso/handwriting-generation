@@ -48,7 +48,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 summary
-output
+output/*
 original
 original-xml-part.tar.gz
 __pycache__

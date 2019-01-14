@@ -12,9 +12,13 @@ from PIL import Image
 from collections import namedtuple
 
 
+output_name = '%s.png' % uuid.uuid4().hex
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', dest='model_path', type=str,
                     default=os.path.join('pretrained', 'model-29'))
+parser.add_argument('--output', dest='output', type=str,
+                    default=os.path.join('output', output_name))
 parser.add_argument('--text', dest='text', type=str, default=None)
 parser.add_argument('--signature', dest='signature', type=bool, default=False)
 parser.add_argument('--style', dest='style', type=int, default=None)
@@ -233,10 +237,10 @@ def main():
 
                 if args.signature:
                     plt.axis('off')
-                    filename = './output/%s.png' % uuid.uuid4().hex
-                    plt.savefig(filename)
 
-                    img = Image.open(filename)
+                    plt.savefig(args.output)
+
+                    img = Image.open(args.output)
                     img = img.convert('RGBA')
 
                     new_data = []
@@ -247,7 +251,7 @@ def main():
                             new_data.append(item)
 
                     img.putdata(new_data)
-                    img.save(filename)
+                    img.save(args.output)
                 else:
                     ax.set_title('Handwriting')
                     plt.show()
