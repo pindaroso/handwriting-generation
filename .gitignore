@@ -47,3 +47,11 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+summary
+output
+original
+original-xml-part.tar.gz
+__pycache__
+
+data/dataset.npy
+data/labels.npy
