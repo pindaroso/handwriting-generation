@@ -12,7 +12,7 @@ from PIL import Image
 from collections import namedtuple
 
 
-output_name = '%s.png' % uuid.uuid4().hex
+output_name = '%s.png' % uuid.uuid5().hex
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', dest='model_path', type=str,
