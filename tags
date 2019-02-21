@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BatchGenerator	batch_generator.py	/^class BatchGenerator(object):$/;"	c
+BatchGenerator	summary/experiment-0/backup/batch_generator.py	/^class BatchGenerator(object):$/;"	c
+MixtureLayer	summary/experiment-0/backup/train.py	/^class MixtureLayer(object):$/;"	c
+MixtureLayer	train.py	/^class MixtureLayer(object):$/;"	c
+RNNModel	summary/experiment-0/backup/train.py	/^class RNNModel(tf.nn.rnn_cell.RNNCell):$/;"	c
+RNNModel	train.py	/^class RNNModel(tf.nn.rnn_cell.RNNCell):$/;"	c
+WindowLayer	summary/experiment-0/backup/train.py	/^class WindowLayer(object):$/;"	c
+WindowLayer	train.py	/^class WindowLayer(object):$/;"	c
+__call__	summary/experiment-0/backup/train.py	/^    def __call__(self, inputs, bias=0., reuse=None):$/;"	m	class:MixtureLayer	file:
+__call__	summary/experiment-0/backup/train.py	/^    def __call__(self, inputs, k, reuse=None):$/;"	m	class:WindowLayer	file:
+__call__	train.py	/^    def __call__(self, inputs, bias=0., reuse=None):$/;"	m	class:MixtureLayer	file:
+__call__	train.py	/^    def __call__(self, inputs, k, reuse=None):$/;"	m	class:WindowLayer	file:
+__init__	batch_generator.py	/^    def __init__(self, batch_size, seq_len):$/;"	m	class:BatchGenerator
+__init__	summary/experiment-0/backup/batch_generator.py	/^    def __init__(self, batch_size, seq_len):$/;"	m	class:BatchGenerator
+__init__	summary/experiment-0/backup/train.py	/^    def __init__(self, input_size, output_size, num_mixtures):$/;"	m	class:MixtureLayer
+__init__	summary/experiment-0/backup/train.py	/^    def __init__(self, layers, num_units, input_size, num_letters, batch_size, window_layer):$/;"	m	class:RNNModel
+__init__	summary/experiment-0/backup/train.py	/^    def __init__(self, num_mixtures, sequence, num_letters):$/;"	m	class:WindowLayer
+__init__	train.py	/^    def __init__(self, input_size, output_size, num_mixtures):$/;"	m	class:MixtureLayer
+__init__	train.py	/^    def __init__(self, layers, num_units, input_size, num_letters, batch_size, window_layer):$/;"	m	class:RNNModel
+__init__	train.py	/^    def __init__(self, num_mixtures, sequence, num_letters):$/;"	m	class:WindowLayer
+_update	generate.py	/^                def _update(i):$/;"	f	function:main
+_update	summary/experiment-0/backup/generate.py	/^                def _update(i):$/;"	f	function:main
+args	generate.py	/^args = parser.parse_args()$/;"	v
+args	summary/experiment-0/backup/generate.py	/^args = parser.parse_args()$/;"	v
+args	summary/experiment-0/backup/train.py	/^args = parser.parse_args()$/;"	v
+args	train.py	/^args = parser.parse_args()$/;"	v
+call	summary/experiment-0/backup/train.py	/^    def call(self, inputs, state, **kwargs):$/;"	m	class:RNNModel
+call	train.py	/^    def call(self, inputs, state, **kwargs):$/;"	m	class:RNNModel
+clear_middle	preprocess.py	/^def clear_middle(pts):$/;"	f
+clear_middle	summary/experiment-0/backup/preprocess.py	/^def clear_middle(pts):$/;"	f
+create_graph	summary/experiment-0/backup/train.py	/^def create_graph(num_letters, batch_size,$/;"	f
+create_graph	train.py	/^def create_graph(num_letters, batch_size,$/;"	f
+create_model	summary/experiment-0/backup/train.py	/^        def create_model(generate=None):$/;"	f	function:create_graph
+create_model	train.py	/^        def create_model(generate=None):$/;"	f	function:create_graph
+cumsum	generate.py	/^def cumsum(points):$/;"	f
+cumsum	summary/experiment-0/backup/generate.py	/^def cumsum(points):$/;"	f
+default	generate.py	/^                    default=os.path.join('output', output_name))$/;"	v
+default	generate.py	/^                    default=os.path.join('pretrained', 'model-29'))$/;"	v
+distance	preprocess.py	/^def distance(p1, p2, axis=None):$/;"	f
+distance	summary/experiment-0/backup/preprocess.py	/^def distance(p1, p2, axis=None):$/;"	f
+epsilon	summary/experiment-0/backup/train.py	/^epsilon = 1e-8$/;"	v
+epsilon	train.py	/^epsilon = 1e-8$/;"	v
+load_dataset	batch_generator.py	/^    def load_dataset():$/;"	m	class:BatchGenerator
+load_dataset	summary/experiment-0/backup/batch_generator.py	/^    def load_dataset():$/;"	m	class:BatchGenerator
+main	generate.py	/^def main():$/;"	f
+main	preprocess.py	/^def main():$/;"	f
+main	summary/experiment-0/backup/generate.py	/^def main():$/;"	f
+main	summary/experiment-0/backup/preprocess.py	/^def main():$/;"	f
+main	summary/experiment-0/backup/train.py	/^def main():$/;"	f
+main	train.py	/^def main():$/;"	f
+next_batch	batch_generator.py	/^    def next_batch(self):$/;"	m	class:BatchGenerator
+next_batch	summary/experiment-0/backup/batch_generator.py	/^    def next_batch(self):$/;"	m	class:BatchGenerator
+next_experiment_path	summary/experiment-0/backup/utils.py	/^def next_experiment_path():$/;"	f
+next_experiment_path	utils.py	/^def next_experiment_path():$/;"	f
+output_name	generate.py	/^output_name = '%s.png' % uuid.uuid5().hex$/;"	v
+output_size	summary/experiment-0/backup/train.py	/^    def output_size(self):$/;"	m	class:RNNModel
+output_size	summary/experiment-0/backup/train.py	/^    def output_size(self):$/;"	m	class:WindowLayer
+output_size	train.py	/^    def output_size(self):$/;"	m	class:RNNModel
+output_size	train.py	/^    def output_size(self):$/;"	m	class:WindowLayer
+parser	generate.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	summary/experiment-0/backup/generate.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	summary/experiment-0/backup/train.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	train.py	/^parser = argparse.ArgumentParser()$/;"	v
+sample	generate.py	/^def sample(e, mu1, mu2, std1, std2, rho):$/;"	f
+sample	summary/experiment-0/backup/generate.py	/^def sample(e, mu1, mu2, std1, std2, rho):$/;"	f
+sample_text	generate.py	/^def sample_text(sess, args_text, translation, style=None):$/;"	f
+sample_text	summary/experiment-0/backup/generate.py	/^def sample_text(sess, args_text, translation, style=None):$/;"	f
+separate	preprocess.py	/^def separate(pts):$/;"	f
+separate	summary/experiment-0/backup/preprocess.py	/^def separate(pts):$/;"	f
+split_strokes	generate.py	/^def split_strokes(points):$/;"	f
+split_strokes	summary/experiment-0/backup/generate.py	/^def split_strokes(points):$/;"	f
+state_size	summary/experiment-0/backup/train.py	/^    def state_size(self):$/;"	m	class:RNNModel
+state_size	train.py	/^    def state_size(self):$/;"	m	class:RNNModel
+translate	preprocess.py	/^    def translate(txt):$/;"	f	function:main
+translate	summary/experiment-0/backup/preprocess.py	/^    def translate(txt):$/;"	f	function:main
